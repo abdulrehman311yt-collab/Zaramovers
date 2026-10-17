@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zara Movers Abu Dhabi | Premium Moving &amp; Storage Services</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Canvas Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts (Inter + Cairo for Arabic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#FFC247',
+              navy: '#102B49',
+              accent: '#F4B83F',
+              cream: '#FFF8E8',
+              navyDark: '#0A1C31',
+              cardBg: '#15365C'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            arabic: ['Cairo', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #102B49; }
+    ::-webkit-scrollbar-thumb { background: #FFC247; border-radius: 4px; }
+
+    /* Glassmorphism effects */
+    .glass-card {
+      background: rgba(16, 43, 73, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 194, 71, 0.18);
+    }
+    .glass-card-light {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(16, 43, 73, 0.08);
+    }
+
+    /* Editable highlight when edit mode active */
+    body.live-edit-mode [contenteditable="true"] {
+      outline: 2px dashed #FFC247 !important;
+      outline-offset: 3px;
+      cursor: text;
+      transition: all 0.2s ease;
+    }
+    body.live-edit-mode [contenteditable="true"]:hover {
+      background-color: rgba(255, 194, 71, 0.15);
+    }
+
+    /* 3D Tilt container */
+    .tilt-card {
+      transform-style: preserve-3d;
+      transition: transform 0.15s ease-out, box-shadow 0.2s ease;
+    }
+
+    /* Particle Canvas background fixed */
+    #particle-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Pulse animation */
+    @keyframes subtlePulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .pulse-btn {
+      animation: subtlePulse 3s infinite ease-in-out;
+    }
+
+    /* RTL styling support */
+    [dir="rtl"] {
+      font-family: 'Cairo', sans-serif;
+    }
+  </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.pointer-events-auto{pointer-events:auto}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.bottom-6{bottom:1.5rem}.left-14{left:3.5rem}.left-6{left:1.5rem}.right-6{right:1.5rem}.top-0{top:0px}.top-\[41px\]{top:41px}.top-4{top:1rem}.right-4{right:1rem}.z-10{z-index:10}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mr-1{margin-right:0.25rem}.mb-2{margin-bottom:0.5rem}.ml-1{margin-left:0.25rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-12{height:3rem}.h-8{height:2rem}.h-2{height:0.5rem}.h-6{height:1.5rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.min-h-\[70vh\]{min-height:70vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-8{width:2rem}.w-full{width:100%}.w-6{width:1.5rem}.w-\[98\.5\%\]{width:98.5%}.w-\[99\.8\%\]{width:99.8%}.max-w-2xl{max-width:42rem}.max-w-7xl{max-width:80rem}.max-w-4xl{max-width:56rem}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.border-collapse{border-collapse:collapse}.translate-y-2{--tw-translate-y:0.5rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;user-select:none}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-1\.5{gap:0.375rem}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-10 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-y-12 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(3rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(3rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-20 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.375rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.divide-y > :not([hidden]) ~ :not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px * var(--tw-divide-y-reverse))}.divide-slate-200 > :not([hidden]) ~ :not([hidden]){--tw-divide-opacity:1;border-color:rgb(226 232 240 / var(--tw-divide-opacity, 1))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-x-hidden{overflow-x:hidden}.scroll-smooth{scroll-behavior:smooth}.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-y{border-top-width:1px;border-bottom-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-b-2{border-bottom-width:2px}.border-brand-gold\/20{border-color:rgb(255 194 71 / 0.2)}.border-brand-gold\/30{border-color:rgb(255 194 71 / 0.3)}.border-brand-gold\/40{border-color:rgb(255 194 71 / 0.4)}.border-brand-gold\/50{border-color:rgb(255 194 71 / 0.5)}.border-emerald-500\/30{border-color:rgb(16 185 129 / 0.3)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.border-brand-gold{--tw-border-opacity:1;border-color:rgb(255 194 71 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-brand-gold{--tw-bg-opacity:1;background-color:rgb(255 194 71 / var(--tw-bg-opacity, 1))}.bg-brand-gold\/15{background-color:rgb(255 194 71 / 0.15)}.bg-brand-gold\/20{background-color:rgb(255 194 71 / 0.2)}.bg-brand-navy{--tw-bg-opacity:1;background-color:rgb(16 43 73 / var(--tw-bg-opacity, 1))}.bg-brand-navy\/80{background-color:rgb(16 43 73 / 0.8)}.bg-brand-navy\/95{background-color:rgb(16 43 73 / 0.95)}.bg-brand-navyDark{--tw-bg-opacity:1;background-color:rgb(10 28 49 / var(--tw-bg-opacity, 1))}.bg-brand-navyDark\/90{background-color:rgb(10 28 49 / 0.9)}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-emerald-500\/20{background-color:rgb(16 185 129 / 0.2)}.bg-red-950\/60{background-color:rgb(69 10 10 / 0.6)}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-800\/80{background-color:rgb(30 41 59 / 0.8)}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/90{background-color:rgb(15 23 42 / 0.9)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-brand-cream{--tw-bg-opacity:1;background-color:rgb(255 248 232 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-\[radial-gradient\(\#FFC247_1px\2c transparent_1px\)\]{background-image:radial-gradient(#FFC247 1px,transparent 1px)}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.from-brand-navy{--tw-gradient-from:#102B49 var(--tw-gradient-from-position);--tw-gradient-to:rgb(16 43 73 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-brand-navy{--tw-gradient-to:rgb(16 43 73 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #102B49 var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-slate-900{--tw-gradient-to:#0f172a var(--tw-gradient-to-position)}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-2\.5{padding:0.625rem}.p-3{padding:0.75rem}.p-5{padding:1.25rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.pb-16{padding-bottom:4rem}.pb-24{padding-bottom:6rem}.pt-12{padding-top:3rem}.pt-2{padding-top:0.5rem}.pt-6{padding-top:1.5rem}.pb-1{padding-bottom:0.25rem}.pb-4{padding-bottom:1rem}.pb-6{padding-bottom:1.5rem}.pb-8{padding-bottom:2rem}.pt-3{padding-top:0.75rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.font-sans{font-family:Inter, sans-serif}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\[10px\]{font-size:10px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-brand-gold{--tw-text-opacity:1;color:rgb(255 194 71 / var(--tw-text-opacity, 1))}.text-brand-gold\/40{color:rgb(255 194 71 / 0.4)}.text-brand-navy{--tw-text-opacity:1;color:rgb(16 43 73 / var(--tw-text-opacity, 1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-red-300{--tw-text-opacity:1;color:rgb(252 165 165 / var(--tw-text-opacity, 1))}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-brand-gold\/30{color:rgb(255 194 71 / 0.3)}.text-emerald-500{--tw-text-opacity:1;color:rgb(16 185 129 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.accent-brand-gold{accent-color:#FFC247}.opacity-0{opacity:0}.opacity-10{opacity:0.1}.opacity-75{opacity:0.75}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.\[background-size\:16px_16px\]{background-size:16px 16px}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-brand-gold:hover{--tw-border-opacity:1;border-color:rgb(255 194 71 / var(--tw-border-opacity, 1))}.hover\:border-slate-300:hover{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.hover\:bg-brand-accent:hover{--tw-bg-opacity:1;background-color:rgb(244 184 63 / var(--tw-bg-opacity, 1))}.hover\:bg-brand-gold\/30:hover{background-color:rgb(255 194 71 / 0.3)}.hover\:bg-brand-navy:hover{--tw-bg-opacity:1;background-color:rgb(16 43 73 / var(--tw-bg-opacity, 1))}.hover\:bg-brand-navyDark:hover{--tw-bg-opacity:1;background-color:rgb(10 28 49 / var(--tw-bg-opacity, 1))}.hover\:bg-brand-navyDark\/50:hover{background-color:rgb(10 28 49 / 0.5)}.hover\:bg-emerald-600:hover{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.hover\:bg-red-900\/60:hover{background-color:rgb(127 29 29 / 0.6)}.hover\:bg-slate-600:hover{--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.hover\:bg-brand-gold:hover{--tw-bg-opacity:1;background-color:rgb(255 194 71 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-300:hover{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:text-brand-accent:hover{--tw-text-opacity:1;color:rgb(244 184 63 / var(--tw-text-opacity, 1))}.hover\:text-brand-gold:hover{--tw-text-opacity:1;color:rgb(255 194 71 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-brand-navy:hover{--tw-text-opacity:1;color:rgb(16 43 73 / var(--tw-text-opacity, 1))}.hover\:text-slate-700:hover{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.hover\:text-red-700:hover{--tw-text-opacity:1;color:rgb(185 28 28 / var(--tw-text-opacity, 1))}.hover\:opacity-100:hover{opacity:1}.hover\:shadow-2xl:hover{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-brand-gold\/30:hover{--tw-shadow-color:rgb(255 194 71 / 0.3);--tw-shadow:var(--tw-shadow-colored)}.hover\:shadow-brand-gold\/40:hover{--tw-shadow-color:rgb(255 194 71 / 0.4);--tw-shadow:var(--tw-shadow-colored)}.focus\:border-brand-gold:focus{--tw-border-opacity:1;border-color:rgb(255 194 71 / var(--tw-border-opacity, 1))}.group:hover .group-hover\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:opacity-100{opacity:1}.peer:checked ~ .peer-checked\:border-brand-gold{--tw-border-opacity:1;border-color:rgb(255 194 71 / var(--tw-border-opacity, 1))}.peer:checked ~ .peer-checked\:bg-brand-cream\/50{background-color:rgb(255 248 232 / 0.5)}@media (min-width: 640px){.sm\:inline{display:inline}.sm\:flex{display:flex}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:p-10{padding:2.5rem}.sm\:p-8{padding:2rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-base{font-size:1rem;line-height:1.5rem}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:text-sm{font-size:0.875rem;line-height:1.25rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:col-span-5{grid-column:span 5 / span 5}.lg\:col-span-7{grid-column:span 7 / span 7}.lg\:col-span-6{grid-column:span 6 / span 6}.lg\:grid-cols-12{grid-template-columns:repeat(12, minmax(0, 1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:gap-2{gap:0.5rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:text-6xl{font-size:3.75rem;line-height:1}}</style></head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans relative overflow-x-hidden min-h-screen live-edit-mode">
+
+  <!-- Interactive Particle Background Canvas -->
+  <canvas id="particle-canvas" width="708" height="828"></canvas>
+
+  <!-- ================= TOP EDITOR & FX CONTROLLER TOOLBAR ================= -->
+  <div id="editor-toolbar" class="sticky top-0 z-50 bg-brand-navyDark text-white border-b border-brand-gold/30 px-3 py-2 text-xs md:text-sm shadow-2xl flex flex-wrap items-center justify-between gap-2">
+    <!-- Left: Live Editing Switch & Storage status -->
+    <div class="flex items-center gap-3">
+      <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-brand-navy border border-brand-gold/40 text-brand-gold font-semibold">
+        <i class="fa-solid fa-sliders text-xs">Menu Controls</i>
+      </span>
+      <button id="toggle-edit-btn" onclick="toggleLiveEditMode()" class="px-2.5 py-1 rounded bg-slate-700 hover:bg-slate-600 text-white font-medium flex items-center gap-1.5 transition">
+        <i class="fa-solid fa-pen-to-square text-brand-gold"></i>
+        <span id="edit-mode-label">Disable Live Text Edit (Active)</span>
+      </button>
+      <button onclick="exportSiteJSON()" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 flex items-center gap-1 transition" title="Export current edits as JSON">
+        <i class="fa-solid fa-download"></i> <span class="hidden sm:inline">Export Config</span>
+      </button>
+      <button onclick="resetCMSData()" class="px-2 py-1 rounded bg-red-950/60 text-red-300 hover:bg-red-900/60 transition text-xs" title="Reset edited texts to default">
+        <i class="fa-solid fa-rotate-right"></i> Reset Text
+      </button>
+    </div>
+
+    <!-- Middle: FX Controls -->
+    <div class="flex items-center gap-3 bg-brand-navy/80 px-3 py-1 rounded-full border border-slate-700">
+      <label class="flex items-center gap-1 cursor-pointer select-none">
+        <input type="checkbox" id="fx-particles" checked="" onchange="toggleParticlesSetting(this.checked)" class="accent-brand-gold">
+        <span class="text-slate-300">Particles</span>
+      </label>
+      <label class="flex items-center gap-1 cursor-pointer select-none">
+        <input type="checkbox" id="fx-tilt" checked="" onchange="toggleTiltSetting(this.checked)" class="accent-brand-gold">
+        <span class="text-slate-300">3D Tilt</span>
+      </label>
+      <button id="sound-fx-btn" onclick="toggleSoundFX()" class="text-slate-300 hover:text-brand-gold transition flex items-center gap-1">
+        <i id="sound-icon" class="fa-solid fa-volume-xmark"></i> Sound FX
+      </button>
+    </div>
+
+    <!-- Right: Language & Jump Nav -->
+    <div class="flex items-center gap-2">
+      <button onclick="toggleLanguage()" class="px-2.5 py-1 bg-brand-gold/20 hover:bg-brand-gold/30 border border-brand-gold/50 rounded text-brand-gold font-bold flex items-center gap-1">
+        <i class="fa-solid fa-globe"></i> <span id="lang-btn-label">العربية (RTL)</span>
+      </button>
+      <span class="text-slate-600">|</span>
+      <button onclick="navigateTo('admin')" class="px-3 py-1 bg-brand-gold text-brand-navy font-bold rounded hover:bg-brand-accent transition shadow">
+        <i class="fa-solid fa-lock text-xs"></i> Admin Panel
+      </button>
+    </div>
+  </div>
+
+  <!-- ================= PUBLIC HEADER / NAVIGATION ================= -->
+  <header class="relative z-40 bg-brand-navy/95 backdrop-blur-md text-white sticky top-[41px] border-b border-brand-gold/20 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="javascript:void(0)" onclick="navigateTo('home')" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-lg bg-brand-gold flex items-center justify-center text-brand-navy font-black text-xl shadow-md group-hover:scale-105 transition">
+          ZM
+        </div>
+        <div>
+          <div class="font-extrabold text-lg md:text-xl tracking-tight text-white flex items-center gap-1.5">
+            <span class="editable-cms" data-cms-key="brand_name" contenteditable="true">ZARA MOVERS</span>
+            <span class="text-brand-gold text-xs px-2 py-0.5 rounded bg-brand-gold/20 font-bold border border-brand-gold/30">ABU DHABI</span>
+          </div>
+          <p class="text-[10px] text-slate-300 tracking-wider uppercase editable-cms" data-cms-key="brand_tagline" contenteditable="true">Professional Packers &amp; Movers UAE</p>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-1 lg:gap-2">
+        <button onclick="navigateTo('home')" id="nav-home" class="nav-link px-3.5 py-2 rounded-lg font-medium text-slate-200 hover:text-brand-gold hover:bg-brand-navyDark/50 transition">Home</button>
+        <button onclick="navigateTo('services')" id="nav-services" class="nav-link px-3.5 py-2 rounded-lg font-medium text-slate-200 hover:text-brand-gold hover:bg-brand-navyDark/50 transition">Services</button>
+        <button onclick="navigateTo('about')" id="nav-about" class="nav-link px-3.5 py-2 rounded-lg font-medium text-slate-200 hover:text-brand-gold hover:bg-brand-navyDark/50 transition">About Us</button>
+        <button onclick="navigateTo('contact')" id="nav-contact" class="nav-link px-3.5 py-2 rounded-lg font-medium text-slate-200 hover:text-brand-gold hover:bg-brand-navyDark/50 transition">Get Quote</button>
+        <button onclick="navigateTo('admin')" id="nav-admin" class="nav-link px-3.5 py-2 rounded-lg font-medium text-slate-300 hover:text-white transition opacity-75 hover:opacity-100">
+          <i class="fa-solid fa-user-shield text-xs mr-1"></i>Admin
+        </button>
+      </nav>
+
+      <!-- Quick Action Right -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="tel:+971501234567" onclick="playClickSound()" class="flex items-center gap-2 text-xs font-bold text-slate-200 bg-slate-800/80 px-3 py-2 rounded-lg border border-slate-700 hover:border-brand-gold transition">
+          <i class="fa-solid fa-phone text-brand-gold"></i>
+          <span>+971 50 123 4567</span>
+        </a>
+        <button onclick="navigateTo('contact')" class="px-4 py-2 bg-brand-gold hover:bg-brand-accent text-brand-navy font-bold rounded-lg text-sm transition shadow-md hover:shadow-brand-gold/30">
+          Book Move
+        </button>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-lg text-slate-200 hover:bg-brand-navyDark">
+        <i class="fa-solid fa-bars text-xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <div id="mobile-menu" class="hidden md:hidden bg-brand-navyDark border-b border-brand-gold/20 px-4 py-4 space-y-2">
+      <button onclick="navigateTo('home'); toggleMobileMenu()" class="block w-full text-left px-4 py-2 text-slate-200 font-medium hover:bg-brand-navy rounded-lg">Home</button>
+      <button onclick="navigateTo('services'); toggleMobileMenu()" class="block w-full text-left px-4 py-2 text-slate-200 font-medium hover:bg-brand-navy rounded-lg">Services</button>
+      <button onclick="navigateTo('about'); toggleMobileMenu()" class="block w-full text-left px-4 py-2 text-slate-200 font-medium hover:bg-brand-navy rounded-lg">About Us</button>
+      <button onclick="navigateTo('contact'); toggleMobileMenu()" class="block w-full text-left px-4 py-2 text-slate-200 font-medium hover:bg-brand-navy rounded-lg">Contact &amp; Free Quote</button>
+      <button onclick="navigateTo('admin'); toggleMobileMenu()" class="block w-full text-left px-4 py-2 text-brand-gold font-medium hover:bg-brand-navy rounded-lg">Admin Dashboard</button>
+    </div>
+  </header>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+  <!-- Floating Quick WhatsApp & Call CTAs -->
+  <div class="fixed bottom-6 left-6 z-40 flex flex-col gap-3">
+    <a href="https://wa.me/971501234567?text=Hello%20Zara%20Movers,%20I%20would%20like%20a%20free%20moving%20quote!" target="_blank" onclick="playClickSound()" class="w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-lg transition transform hover:scale-110 group relative" title="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp text-2xl"></i>
+      <span class="absolute left-14 bg-slate-900 text-white text-xs px-2.5 py-1 rounded shadow-md opacity-0 group-hover:opacity-100 whitespace-nowrap transition">Instant WhatsApp Quote</span>
+    </a>
+    <a href="tel:+971501234567" onclick="playClickSound()" class="w-12 h-12 rounded-full bg-brand-gold hover:bg-brand-accent text-brand-navy flex items-center justify-center shadow-lg transition transform hover:scale-110 group relative" title="Call Us Directly">
+      <i class="fa-solid fa-phone text-lg"></i>
+      <span class="absolute left-14 bg-slate-900 text-white text-xs px-2.5 py-1 rounded shadow-md opacity-0 group-hover:opacity-100 whitespace-nowrap transition">Call Abu Dhabi Dispatch</span>
+    </a>
+  </div>
+
+  <!-- ================= MAIN CONTENT PAGES (ROUTER) ================= -->
+  <main id="app-container" class="relative z-10 min-h-[70vh]">
+
+    <!-- PAGE 1: HOME PAGE -->
+    <section id="page-home" class="page-view space-y-20 pb-16">
+      
+      <!-- HERO PARALLAX SECTION -->
+      <div id="hero-container" class="relative bg-gradient-to-b from-brand-navy via-brand-navy to-slate-900 text-white pt-12 pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <!-- Background Graphic Elements -->
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#FFC247_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center relative z-10">
+          <!-- Hero Left Content -->
+          <div class="lg:col-span-7 space-y-6">
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-gold/15 border border-brand-gold/30 text-brand-gold text-xs font-semibold">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span class="editable-cms" data-cms-key="hero_badge" contenteditable="true">#1 Rated Villa &amp; Apartment Movers in Abu Dhabi</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+              <span class="editable-cms" data-cms-key="hero_title_1" contenteditable="true">Hassle-Free Relocation Across</span><br>
+              <span class="text-brand-gold editable-cms" data-cms-key="hero_title_2" contenteditable="true">Abu Dhabi &amp; UAE</span>
+            </h1>
+
+            <p class="text-slate-300 text-base sm:text-lg max-w-2xl editable-cms" data-cms-key="hero_desc" contenteditable="true">From Al Reem Island to Yas, Mussafah, and Dubai. We provide stress-free packing, furniture disassembly, secure transport, and complete setup. Fully insured and trusted by 12,000+ UAE residents.</p>
+
+            <div class="pt-2 flex flex-wrap items-center gap-4">
+              <button onclick="navigateTo('contact')" class="pulse-btn px-6 py-3.5 rounded-xl bg-brand-gold hover:bg-brand-accent text-brand-navy font-extrabold text-base transition shadow-xl hover:shadow-brand-gold/40 flex items-center gap-2">
+                <span>Calculate Free Moving Cost</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <button onclick="navigateTo('services')" class="px-6 py-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-white border border-slate-600 font-semibold text-base transition">
+                Explore Services
+              </button>
+            </div>
+
+            <!-- Features Bar -->
+            <div class="pt-6 border-t border-slate-800 grid grid-cols-3 gap-4 text-xs sm:text-sm text-slate-300">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="editable-cms" data-cms-key="hero_feat_1" contenteditable="true">0% Breakage Guarantee</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="editable-cms" data-cms-key="hero_feat_2" contenteditable="true">Same Day Moving</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-check text-brand-gold"></i>
+                <span class="editable-cms" data-cms-key="hero_feat_3" contenteditable="true">Free Box Delivery</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Right Parallax / Quick Moving Estimator Card -->
+          <div class="lg:col-span-5">
+            <div id="hero-card" class="tilt-card glass-card rounded-2xl p-6 sm:p-8 shadow-2xl text-white relative" style="transform: perspective(1000px) rotateX(-17.4551deg) rotateY(1.34895deg);">
+              <div class="flex items-center justify-between mb-6">
+                <h3 class="text-xl font-bold flex items-center gap-2">
+                  <i class="fa-solid fa-calculator text-brand-gold"></i>
+                  <span>Quick Price Estimator</span>
+                </h3>
+                <span class="text-xs bg-emerald-500/20 text-emerald-300 px-2.5 py-1 rounded-full font-medium border border-emerald-500/30">Live Quote</span>
+              </div>
+
+              <!-- Quick Mini Form -->
+              <div class="space-y-4">
+                <div>
+                  <label class="block text-xs text-slate-300 font-medium mb-1">Moving Type</label>
+                  <select id="quick-move-type" onchange="calculateQuickEstimate()" class="w-full bg-slate-900/90 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:border-brand-gold outline-none">
+                    <option value="studio">Studio Apartment</option>
+                    <option value="1bed" selected="">1 Bedroom Apartment</option>
+                    <option value="2bed">2 Bedroom Apartment</option>
+                    <option value="3bed">3 Bedroom Villa / Apt</option>
+                    <option value="villa">Large Villa (4+ Bed)</option>
+                    <option value="office">Commercial Office Space</option>
+                  </select>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <label class="block text-xs text-slate-300 font-medium mb-1">Pickup Location</label>
+                    <select id="quick-from" onchange="calculateQuickEstimate()" class="w-full bg-slate-900/90 border border-slate-700 rounded-lg px-3 py-2 text-white text-xs focus:border-brand-gold outline-none">
+                      <option value="abudhabi">Abu Dhabi City / Corniche</option>
+                      <option value="reem">Al Reem Island</option>
+                      <option value="yas">Yas Island / Raha</option>
+                      <option value="khalifa">Khalifa City</option>
+                      <option value="mussafah">Mussafah</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="block text-xs text-slate-300 font-medium mb-1">Destination</label>
+                    <select id="quick-to" onchange="calculateQuickEstimate()" class="w-full bg-slate-900/90 border border-slate-700 rounded-lg px-3 py-2 text-white text-xs focus:border-brand-gold outline-none">
+                      <option value="abudhabi">Abu Dhabi Area</option>
+                      <option value="dubai">Dubai</option>
+                      <option value="sharjah">Sharjah / Ajman</option>
+                      <option value="rak">Ras Al Khaimah</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="p-4 rounded-xl bg-brand-navyDark/90 border border-brand-gold/30 flex items-center justify-between">
+                  <div>
+                    <div class="text-xs text-slate-400">Estimated Price Range:</div>
+                    <div id="quick-price-display" class="text-2xl font-black text-brand-gold">750 - 1100 AED</div>
+                  </div>
+                  <i class="fa-solid fa-truck-fast text-3xl text-brand-gold/40"></i>
+                </div>
+
+                <button onclick="applyQuickEstimateToForm()" class="w-full py-3 bg-brand-gold hover:bg-brand-accent text-brand-navy font-bold rounded-lg text-sm transition shadow">
+                  Lock Price &amp; Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- COUNTER METRICS SECTION -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-brand-navy rounded-2xl p-6 sm:p-10 shadow-xl border border-brand-gold/20 grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
+          <div class="space-y-1">
+            <div class="text-3xl sm:text-4xl font-extrabold text-brand-gold counter" data-target="12500">12,500+</div>
+            <div class="text-xs sm:text-sm text-slate-300">Successful Moves</div>
+          </div>
+          <div class="space-y-1">
+            <div class="text-3xl sm:text-4xl font-extrabold text-brand-gold counter" data-target="48">48</div>
+            <div class="text-xs sm:text-sm text-slate-300">Moving Trucks &amp; Vans</div>
+          </div>
+          <div class="space-y-1">
+            <div class="text-3xl sm:text-4xl font-extrabold text-brand-gold counter" data-target="99">99.4%</div>
+            <div class="text-xs sm:text-sm text-slate-300">On-Time Completion</div>
+          </div>
+          <div class="space-y-1">
+            <div class="text-3xl sm:text-4xl font-extrabold text-brand-gold counter" data-target="100">100%</div>
+            <div class="text-xs sm:text-sm text-slate-300">Insured Relocations</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SERVICES PREVIEW (WITH 3D TILT CARDS) -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+        <div class="text-center space-y-3">
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-brand-navy">
+            Our Moving &amp; Packing Solutions
+          </h2>
+          <p class="text-slate-600 max-w-2xl mx-auto text-sm sm:text-base editable-cms" data-cms-key="services_subtitle" contenteditable="true">
+            Tailored relocation services designed for residences, offices, and long-distance transfers throughout Abu Dhabi and the UAE.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Service Card 1 -->
+          <div class="tilt-card bg-white rounded-2xl p-6 shadow-lg border border-slate-100 space-y-4 hover:shadow-2xl transition flex flex-col justify-between" style="transform: perspective(1000px) rotateX(-44.5267deg) rotateY(1.36582deg);">
+            <div class="space-y-3">
+              <div class="w-12 h-12 rounded-xl bg-brand-gold/20 text-brand-navy flex items-center justify-center text-2xl font-bold">
+                <i class="fa-solid fa-house font-bold text-brand-navy"></i>
+              </div>
+              <h3 class="text-xl font-bold text-brand-navy editable-cms" data-cms-key="s1_title" contenteditable="true">Residential Villa &amp; Apt Moving</h3>
+              <p class="text-slate-600 text-sm leading-relaxed editable-cms" data-cms-key="s1_desc" contenteditable="true">Complete home relocation including bubble wrapping, furniture dismantling/reassembly, and neat room placement.</p>
+            </div>
+            <button onclick="showServiceDetail('residential')" class="text-brand-navy font-bold text-sm flex items-center gap-2 hover:text-brand-accent">
+              <span>View Service Details</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="tilt-card bg-white rounded-2xl p-6 shadow-lg border border-slate-100 space-y-4 hover:shadow-2xl transition flex flex-col justify-between" style="transform: perspective(1000px) rotateX(-52.0346deg) rotateY(1.37284deg);">
+            <div class="space-y-3">
+              <div class="w-12 h-12 rounded-xl bg-brand-gold/20 text-brand-navy flex items-center justify-center text-2xl font-bold">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <h3 class="text-xl font-bold text-brand-navy editable-cms" data-cms-key="s2_title" contenteditable="true">Office &amp; Corporate Relocation</h3>
+              <p class="text-slate-600 text-sm leading-relaxed editable-cms" data-cms-key="s2_desc" contenteditable="true">Minimal downtime corporate moving with IT equipment protection, filing system packing, and off-hours scheduling.</p>
+            </div>
+            <button onclick="showServiceDetail('office')" class="text-brand-navy font-bold text-sm flex items-center gap-2 hover:text-brand-accent">
+              <span>View Service Details</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="tilt-card bg-white rounded-2xl p-6 shadow-lg border border-slate-100 space-y-4 hover:shadow-2xl transition flex flex-col justify-between" style="transform: perspective(1000px) rotateX(-59.5556deg) rotateY(1.38141deg);">
+            <div class="space-y-3">
+              <div class="w-12 h-12 rounded-xl bg-brand-gold/20 text-brand-navy flex items-center justify-center text-2xl font-bold">
+                <i class="fa-solid fa-boxes-packing"></i>
+              </div>
+              <h3 class="text-xl font-bold text-brand-navy editable-cms" data-cms-key="s3_title" contenteditable="true">Packing &amp; Storage Services</h3>
+              <p class="text-slate-600 text-sm leading-relaxed editable-cms" data-cms-key="s3_desc" contenteditable="true">High-grade stretch wrap, heavy-duty cartons, wardrobe boxes, and climate-controlled warehouse storage in Abu Dhabi.</p>
+            </div>
+            <button onclick="showServiceDetail('packing')" class="text-brand-navy font-bold text-sm flex items-center gap-2 hover:text-brand-accent">
+              <span>View Service Details</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- HOW IT WORKS STEP-BY-STEP -->
+      <div class="bg-slate-100 py-16 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+          <div class="text-center space-y-2">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-navy">Simple 4-Step Moving Process</h2>
+            <p class="text-slate-600 text-sm">How we make moving smooth and effortless for you</p>
+          </div>
+
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 relative">
+              <span class="w-8 h-8 rounded-full bg-brand-gold text-brand-navy font-extrabold flex items-center justify-center text-sm mb-4">1</span>
+              <h4 class="font-bold text-slate-800 mb-1">Get Free Quote</h4>
+              <p class="text-slate-600 text-xs">Use our room calculator or call dispatch for an upfront estimate.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 relative">
+              <span class="w-8 h-8 rounded-full bg-brand-gold text-brand-navy font-extrabold flex items-center justify-center text-sm mb-4">2</span>
+              <h4 class="font-bold text-slate-800 mb-1">Schedule &amp; Packing</h4>
+              <p class="text-slate-600 text-xs">Our crew arrives on time with boxes, wraps, and disassembly tools.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 relative">
+              <span class="w-8 h-8 rounded-full bg-brand-gold text-brand-navy font-extrabold flex items-center justify-center text-sm mb-4">3</span>
+              <h4 class="font-bold text-slate-800 mb-1">Safe Transport</h4>
+              <p class="text-slate-600 text-xs">GPS tracked enclosed trucks transfer your belongings securely.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 relative">
+              <span class="w-8 h-8 rounded-full bg-brand-gold text-brand-navy font-extrabold flex items-center justify-center text-sm mb-4">4</span>
+              <h4 class="font-bold text-slate-800 mb-1">Unpacking &amp; Setup</h4>
+              <p class="text-slate-600 text-xs">We reassemble furniture and position boxes right where you want them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TESTIMONIALS SLIDER / FAQ -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12">
+        <!-- Testimonials -->
+        <div class="lg:col-span-6 space-y-6">
+          <h3 class="text-2xl font-bold text-brand-navy">What Our Clients Say</h3>
+          <div class="bg-brand-navy text-white p-6 rounded-2xl shadow-xl relative border border-brand-gold/20">
+            <i class="fa-solid fa-quote-right text-4xl text-brand-gold/30 absolute top-4 right-6"></i>
+            <div id="testimonial-content" class="space-y-3">
+              <p class="text-slate-200 text-sm italic">
+                "Zara Movers made our move from Al Reem Island to Yas Acres completely effortless. They arrived on time, wrapped everything meticulously, and didn't leave a single scratch. Highly recommended in Abu Dhabi!"
+              </p>
+              <div>
+                <div class="font-bold text-brand-gold">Tariq Mansoor</div>
+                <div class="text-xs text-slate-400">Yas Island Resident</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 mt-4 pt-4 border-t border-slate-800">
+              <button onclick="prevTestimonial()" class="p-2 rounded bg-slate-800 hover:bg-slate-700 text-xs"><i class="fa-solid fa-chevron-left"></i></button>
+              <button onclick="nextTestimonial()" class="p-2 rounded bg-slate-800 hover:bg-slate-700 text-xs"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div class="lg:col-span-6 space-y-4">
+          <h3 class="text-2xl font-bold text-brand-navy">Frequently Asked Questions</h3>
+          <div class="space-y-3">
+            <details class="bg-white rounded-xl p-4 border border-slate-200 cursor-pointer shadow-sm">
+              <summary class="font-semibold text-slate-800 text-sm">Do you provide packing materials and boxes?</summary>
+              <p class="mt-2 text-xs text-slate-600 leading-relaxed">Yes! We provide heavy-duty cardboard boxes, bubble wrap, stretch film, and wardrobe boxes included in our full-service packages.</p>
+            </details>
+            <details class="bg-white rounded-xl p-4 border border-slate-200 cursor-pointer shadow-sm">
+              <summary class="font-semibold text-slate-800 text-sm">Can you handle moves from Abu Dhabi to Dubai or Sharjah?</summary>
+              <p class="mt-2 text-xs text-slate-600 leading-relaxed">Absolutely. We operate daily inter-emirate trips between Abu Dhabi, Dubai, Sharjah, Ajman, and Ras Al Khaimah.</p>
+            </details>
+            <details class="bg-white rounded-xl p-4 border border-slate-200 cursor-pointer shadow-sm">
+              <summary class="font-semibold text-slate-800 text-sm">Are my goods insured during the move?</summary>
+              <p class="mt-2 text-xs text-slate-600 leading-relaxed">Yes, all goods transported in our trucks are covered under our transit insurance guarantee against damage during transport.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PAGE 2: SERVICES PAGE -->
+    <section id="page-services" class="page-view hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+      <div class="text-center space-y-3">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-brand-navy">Comprehensive Moving Solutions</h1>
+        <p class="text-slate-600 max-w-2xl mx-auto text-sm">Full-suite logistics, white-glove packing, heavy furniture assembly, and secure Abu Dhabi warehouse storage.</p>
+      </div>
+
+      <!-- Service Filter Tabs -->
+      <div class="flex flex-wrap justify-center gap-2">
+        <button onclick="filterServices('all')" class="service-tab-btn active px-4 py-2 rounded-full text-xs font-bold bg-brand-navy text-white shadow">All Services</button>
+        <button onclick="filterServices('res')" class="service-tab-btn px-4 py-2 rounded-full text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300">Residential</button>
+        <button onclick="filterServices('comm')" class="service-tab-btn px-4 py-2 rounded-full text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300">Commercial</button>
+        <button onclick="filterServices('pack')" class="service-tab-btn px-4 py-2 rounded-full text-xs font-bold bg-slate-200 text-slate-700 hover:bg-slate-300">Packing &amp; Storage</button>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Service 1 -->
+        <div class="service-card res bg-white rounded-2xl p-6 border border-slate-200 shadow-md space-y-4">
+          <div class="text-brand-gold text-3xl"><i class="fa-solid fa-house"></i></div>
+          <h3 class="text-lg font-bold text-brand-navy">Villa &amp; Apartment Relocation</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Careful packing, curtain removal, furniture disassembly, safe transport, and complete room arrangement.</p>
+          <ul class="text-xs text-slate-500 space-y-1 border-t pt-3">
+            <li><i class="fa-solid fa-check text-emerald-500 mr-1"></i> Bubble wrapped electronics</li>
+            <li><i class="fa-solid fa-check text-emerald-500 mr-1"></i> Carpenter for beds/cabinets</li>
+          </ul>
+          <button onclick="navigateTo('contact')" class="w-full py-2 bg-slate-100 hover:bg-brand-gold hover:text-brand-navy font-bold text-xs rounded transition">Book This Service</button>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card comm bg-white rounded-2xl p-6 border border-slate-200 shadow-md space-y-4">
+          <div class="text-brand-gold text-3xl"><i class="fa-solid fa-building-user"></i></div>
+          <h3 class="text-lg font-bold text-brand-navy">Corporate &amp; Office Moving</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Rapid commercial relocation to reduce business downtime. Server rack care and office furniture assembly.</p>
+          <ul class="text-xs text-slate-500 space-y-1 border-t pt-3">
+            <li><i class="fa-solid fa-check text-emerald-500 mr-1"></i> Weekend/Night slots</li>
+            <li><i class="fa-solid fa-check text-emerald-500 mr-1"></i> Labeled box tracking</li>
+          </ul>
+          <button onclick="navigateTo('contact')" class="w-full py-2 bg-slate-100 hover:bg-brand-gold hover:text-brand-navy font-bold text-xs rounded transition">Book This Service</button>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card pack bg-white rounded-2xl p-6 border border-slate-200 shadow-md space-y-4">
+          <div class="text-brand-gold text-3xl"><i class="fa-solid fa-box"></i></div>
+          <h3 class="text-lg font-bold text-brand-navy">Professional Packing &amp; Materials</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Top-tier packing materials delivered to your doorstep. Wardrobe boxes for clothes without creasing.</p>
+          <ul class="text-xs text-slate-500 space-y-1 border-t pt-3">
+            <li><i class="fa-solid fa-check text-emerald-500 mr-1"></i> High density bubble wrap</li>
+            <li><i class="fa-solid fa-check text-emerald-500 mr-1"></i> Custom wooden crating</li>
+          </ul>
+          <button onclick="navigateTo('contact')" class="w-full py-2 bg-slate-100 hover:bg-brand-gold hover:text-brand-navy font-bold text-xs rounded transition">Book This Service</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: ABOUT US PAGE -->
+    <section id="page-about" class="page-view hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 space-y-6">
+          <span class="px-3 py-1 rounded bg-brand-gold/20 text-brand-navy font-bold text-xs">Abu Dhabi Logistics Leaders</span>
+          <h1 class="text-3xl sm:text-4xl font-extrabold text-brand-navy editable-cms" data-cms-key="about_heading" contenteditable="true">Dedicated to Seamless Moving Experiences</h1>
+          <p class="text-slate-600 text-sm leading-relaxed editable-cms" data-cms-key="about_text" contenteditable="true">Established with a commitment to excellence, Zara Movers Abu Dhabi has become the capital's premier choice for residential and corporate relocation. We combine trained professionals, modern enclosed GPS trucks, and high-quality packing supplies to protect your valuable memories and assets.</p>
+
+          <div class="space-y-4 pt-2">
+            <div>
+              <div class="flex justify-between text-xs font-bold mb-1">
+                <span>Safety &amp; Damage Free Rate</span>
+                <span>99.8%</span>
+              </div>
+              <div class="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
+                <div class="bg-brand-gold h-full w-[99.8%]"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-xs font-bold mb-1">
+                <span>Customer Satisfaction Index</span>
+                <span>98.5%</span>
+              </div>
+              <div class="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
+                <div class="bg-brand-navy h-full w-[98.5%]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 bg-brand-navy text-white p-8 rounded-2xl shadow-xl space-y-6">
+          <h3 class="text-xl font-bold text-brand-gold">Our Core Values</h3>
+          <div class="space-y-4 text-xs text-slate-300">
+            <div class="flex gap-3">
+              <i class="fa-solid fa-clock text-brand-gold text-base mt-0.5"></i>
+              <div>
+                <strong class="text-white block text-sm">Punctuality First</strong>
+                We respect your schedule and arrive strictly within the designated appointment window.
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <i class="fa-solid fa-shield text-brand-gold text-base mt-0.5"></i>
+              <div>
+                <strong class="text-white block text-sm">Care &amp; Respect</strong>
+                Every item is treated as delicate glass. We use floor and wall protection during loading.
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <i class="fa-solid fa-hand-holding-dollar text-brand-gold text-base mt-0.5"></i>
+              <div>
+                <strong class="text-white block text-sm">Transparent Pricing</strong>
+                No hidden costs or unexpected charges on moving day. What we quote is what you pay.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: CONTACT & FREE QUOTE PAGE (INTERACTIVE CALCULATOR FORM) -->
+    <section id="page-contact" class="page-view hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+      <div class="text-center space-y-2">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-brand-navy">Interactive Moving Cost Calculator &amp; Booking</h1>
+        <p class="text-slate-600 text-sm max-w-2xl mx-auto">Configure your move details below to calculate a live price estimate and secure your booking reference.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl border border-slate-200 p-6 sm:p-10 max-w-4xl mx-auto space-y-8">
+        
+        <!-- Multi-Step Progress Indicator -->
+        <div class="flex items-center justify-between border-b border-slate-200 pb-6 text-xs sm:text-sm font-bold text-slate-500">
+          <div id="step-1-indicator" class="flex items-center gap-2 text-brand-navy border-b-2 border-brand-gold pb-1">
+            <span class="w-6 h-6 rounded-full bg-brand-gold text-brand-navy flex items-center justify-center text-xs">1</span> Move Details
+          </div>
+          <div id="step-2-indicator" class="flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-slate-200 text-slate-600 flex items-center justify-center text-xs">2</span> Locations &amp; Date
+          </div>
+          <div id="step-3-indicator" class="flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-slate-200 text-slate-600 flex items-center justify-center text-xs">3</span> Contact &amp; Confirm
+          </div>
+        </div>
+
+        <form id="quote-form" onsubmit="handleQuoteSubmit(event)" class="space-y-8">
+          
+          <!-- STEP 1: MOVE DETAILS -->
+          <div id="quote-step-1" class="space-y-6">
+            <h3 class="font-bold text-brand-navy text-lg">Step 1: Select Property &amp; Inventory Size</h3>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <label class="cursor-pointer">
+                <input type="radio" name="property_type" value="studio" class="peer hidden" onchange="recalculateFullQuote()">
+                <div class="p-4 rounded-xl border-2 border-slate-200 peer-checked:border-brand-gold peer-checked:bg-brand-cream/50 text-center hover:border-slate-300 transition">
+                  <i class="fa-solid fa-bed text-2xl text-slate-600 mb-2 block"></i>
+                  <div class="font-bold text-xs text-brand-navy">Studio</div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="property_type" value="1bed" checked="" class="peer hidden" onchange="recalculateFullQuote()">
+                <div class="p-4 rounded-xl border-2 border-slate-200 peer-checked:border-brand-gold peer-checked:bg-brand-cream/50 text-center hover:border-slate-300 transition">
+                  <i class="fa-solid fa-door-closed text-2xl text-slate-600 mb-2 block"></i>
+                  <div class="font-bold text-xs text-brand-navy">1 Bedroom</div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="property_type" value="2bed" class="peer hidden" onchange="recalculateFullQuote()">
+                <div class="p-4 rounded-xl border-2 border-slate-200 peer-checked:border-brand-gold peer-checked:bg-brand-cream/50 text-center hover:border-slate-300 transition">
+                  <i class="fa-solid fa-building-user text-2xl text-slate-600 mb-2 block"></i>
+                  <div class="font-bold text-xs text-brand-navy">2 Bedroom</div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="property_type" value="villa" class="peer hidden" onchange="recalculateFullQuote()">
+                <div class="p-4 rounded-xl border-2 border-slate-200 peer-checked:border-brand-gold peer-checked:bg-brand-cream/50 text-center hover:border-slate-300 transition">
+                  <i class="fa-solid fa-house-chimney text-2xl text-slate-600 mb-2 block"></i>
+                  <div class="font-bold text-xs text-brand-navy">3+ Bed / Villa</div>
+                </div>
+              </label>
+            </div>
+
+            <!-- Optional Add-ons -->
+            <div class="space-y-3">
+              <label class="block font-medium text-xs text-slate-700">Add-on Packing &amp; Handyman Services:</label>
+              <div class="grid sm:grid-cols-3 gap-3">
+                <label class="flex items-center gap-2 text-xs text-slate-700 bg-slate-50 p-3 rounded-lg border cursor-pointer">
+                  <input type="checkbox" id="addon-fullpack" onchange="recalculateFullQuote()" class="accent-brand-gold">
+                  <span>Full Packing Service (+300 AED)</span>
+                </label>
+                <label class="flex items-center gap-2 text-xs text-slate-700 bg-slate-50 p-3 rounded-lg border cursor-pointer">
+                  <input type="checkbox" id="addon-curtains" onchange="recalculateFullQuote()" class="accent-brand-gold">
+                  <span>Curtain &amp; TV Mounting (+150 AED)</span>
+                </label>
+                <label class="flex items-center gap-2 text-xs text-slate-700 bg-slate-50 p-3 rounded-lg border cursor-pointer">
+                  <input type="checkbox" id="addon-storage" onchange="recalculateFullQuote()" class="accent-brand-gold">
+                  <span>Storage (7 Days) (+400 AED)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="flex justify-end">
+              <button type="button" onclick="goToStep(2)" class="px-6 py-2.5 bg-brand-navy text-white font-bold rounded-lg text-sm hover:bg-brand-navyDark transition">
+                Next: Location &amp; Date <i class="fa-solid fa-arrow-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 2: LOCATION & DATE -->
+          <div id="quote-step-2" class="space-y-6 hidden">
+            <h3 class="font-bold text-brand-navy text-lg">Step 2: Pickup, Destination &amp; Moving Date</h3>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Pickup Location (Abu Dhabi)</label>
+                <select id="pickup-area" onchange="recalculateFullQuote()" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs text-slate-800">
+                  <option value="Corniche / City">Abu Dhabi Corniche / Downtown</option>
+                  <option value="Al Reem Island">Al Reem Island</option>
+                  <option value="Yas Island">Yas Island / Raha</option>
+                  <option value="Khalifa City">Khalifa City / MBZ</option>
+                  <option value="Mussafah">Mussafah</option>
+                  <option value="Al Khalidiya">Al Khalidiya</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Destination Area / Emirate</label>
+                <select id="drop-area" onchange="recalculateFullQuote()" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs text-slate-800">
+                  <option value="Abu Dhabi Area">Within Abu Dhabi Area</option>
+                  <option value="Dubai">Dubai (+350 AED Transport)</option>
+                  <option value="Sharjah">Sharjah (+450 AED Transport)</option>
+                  <option value="Ras Al Khaimah">Ras Al Khaimah (+600 AED Transport)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Preferred Moving Date</label>
+                <input type="date" id="move-date" required="" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs text-slate-800" min="2026-10-17">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Floor Level / Elevator Available?</label>
+                <select id="elevator-status" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs text-slate-800">
+                  <option value="elevator">Elevator Available (Easy Access)</option>
+                  <option value="stairs">Stairs Only (1-2 Floors)</option>
+                  <option value="ground">Ground Floor / Villa</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <button type="button" onclick="goToStep(1)" class="px-5 py-2.5 bg-slate-200 text-slate-700 font-bold rounded-lg text-sm">
+                Back
+              </button>
+              <button type="button" onclick="goToStep(3)" class="px-6 py-2.5 bg-brand-navy text-white font-bold rounded-lg text-sm hover:bg-brand-navyDark transition">
+                Next: Contact Info <i class="fa-solid fa-arrow-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 3: CONTACT & CONFIRMATION -->
+          <div id="quote-step-3" class="space-y-6 hidden">
+            <h3 class="font-bold text-brand-navy text-lg">Step 3: Contact Info &amp; Instant Estimate</h3>
+
+            <div class="p-4 rounded-xl bg-brand-cream border border-brand-gold/40 flex items-center justify-between">
+              <div>
+                <span class="text-xs text-slate-600 block">Estimated Moving Cost:</span>
+                <span id="final-calculated-price" class="text-2xl font-black text-brand-navy">850 AED</span>
+              </div>
+              <span class="text-xs font-semibold text-emerald-700 bg-emerald-100 px-3 py-1 rounded-full">Guaranteed Price Range</span>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Full Name *</label>
+                <input type="text" id="cust-name" required="" placeholder="e.g. Mohammed Al Mansoori" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs text-slate-800">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">UAE Phone Number *</label>
+                <input type="tel" id="cust-phone" required="" placeholder="+971 50 000 0000" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs text-slate-800">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">Additional Notes / Special Items (Pianos, Safes, Glass)</label>
+              <textarea id="cust-notes" rows="2" placeholder="Tell us about special fragile items or packing preferences..." class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs text-slate-800"></textarea>
+            </div>
+
+            <div class="flex justify-between">
+              <button type="button" onclick="goToStep(2)" class="px-5 py-2.5 bg-slate-200 text-slate-700 font-bold rounded-lg text-sm">
+                Back
+              </button>
+              <button type="submit" class="px-8 py-3 bg-brand-gold hover:bg-brand-accent text-brand-navy font-black rounded-lg text-sm shadow-xl transition transform hover:scale-105">
+                Submit &amp; Lock Reference Code
+              </button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- ADMIN DASHBOARD PAGE -->
+    <section id="page-admin" class="page-view hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+      
+      <!-- LOGIN SCREEN (If not authenticated) -->
+      <div id="admin-login-box" class="max-w-md mx-auto bg-white rounded-2xl shadow-2xl p-8 border border-slate-200 space-y-6">
+        <div class="text-center space-y-2">
+          <div class="w-12 h-12 rounded-xl bg-brand-navy text-brand-gold flex items-center justify-center text-xl font-bold mx-auto">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <h2 class="text-2xl font-extrabold text-brand-navy">Admin Portal Login</h2>
+          <p class="text-xs text-slate-500">Demo Credentials: Username: <strong class="text-slate-800">admin</strong> | Password: <strong class="text-slate-800">zaramovers123</strong></p>
+        </div>
+
+        <form onsubmit="handleAdminLogin(event)" class="space-y-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Username</label>
+            <input type="text" id="admin-user" required="" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Password</label>
+            <input type="password" id="admin-pass" required="" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-xs">
+          </div>
+          <button type="submit" class="w-full py-2.5 bg-brand-navy text-white font-bold rounded-lg text-sm hover:bg-brand-navyDark transition">
+            Access Dashboard
+          </button>
+        </form>
+      </div>
+
+      <!-- AUTHENTICATED ADMIN DASHBOARD -->
+      <div id="admin-dashboard-box" class="hidden space-y-8">
+        <!-- Top Stats Row -->
+        <div class="flex flex-wrap items-center justify-between gap-4 bg-brand-navy text-white p-6 rounded-2xl shadow-xl">
+          <div>
+            <h2 class="text-2xl font-bold flex items-center gap-2">
+              <i class="fa-solid fa-gauge-high text-brand-gold"></i>
+              <span>Zara Movers Admin Control Panel</span>
+            </h2>
+            <p class="text-xs text-slate-300">Manage client inquiries, live pricing rates, and export database records.</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <button onclick="exportInquiriesCSV()" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-bold flex items-center gap-1.5 shadow">
+              <i class="fa-solid fa-file-csv"></i> Export CSV
+            </button>
+            <button onclick="adminLogout()" class="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-lg text-xs font-bold">
+              Logout
+            </button>
+          </div>
+        </div>
+
+        <!-- Analytics Cards -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <div class="text-xs text-slate-500 font-medium">Total Quotes Received</div>
+            <div id="stat-total-quotes" class="text-2xl font-extrabold text-brand-navy mt-1">2</div>
+          </div>
+          <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <div class="text-xs text-slate-500 font-medium">New / Uncontacted</div>
+            <div id="stat-new-quotes" class="text-2xl font-extrabold text-amber-600 mt-1">1</div>
+          </div>
+          <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <div class="text-xs text-slate-500 font-medium">Confirmed / Scheduled</div>
+            <div id="stat-confirmed-quotes" class="text-2xl font-extrabold text-emerald-600 mt-1">0</div>
+          </div>
+          <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+            <div class="text-xs text-slate-500 font-medium">Est. Revenue Pipeline</div>
+            <div id="stat-revenue" class="text-2xl font-extrabold text-brand-navy mt-1">2,350 AED</div>
+          </div>
+        </div>
+
+        <!-- Inquiries Table -->
+        <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden space-y-4 p-6">
+          <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-200 pb-4">
+            <h3 class="font-bold text-brand-navy text-lg">Customer Quote Requests</h3>
+            <div class="flex items-center gap-2">
+              <input type="text" id="admin-search" oninput="renderAdminInquiries()" placeholder="Search Name, Phone, Ref..." class="bg-slate-50 border border-slate-300 rounded-lg px-3 py-1.5 text-xs">
+              <select id="admin-filter-status" onchange="renderAdminInquiries()" class="bg-slate-50 border border-slate-300 rounded-lg px-3 py-1.5 text-xs">
+                <option value="all">All Statuses</option>
+                <option value="New">New</option>
+                <option value="Contacted">Contacted</option>
+                <option value="Confirmed">Confirmed</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse text-xs">
+              <thead>
+                <tr class="bg-slate-100 text-slate-700 font-bold border-b border-slate-200">
+                  <th class="p-3">Ref ID</th>
+                  <th class="p-3">Customer</th>
+                  <th class="p-3">Phone</th>
+                  <th class="p-3">Route</th>
+                  <th class="p-3">Property</th>
+                  <th class="p-3">Est. Cost</th>
+                  <th class="p-3">Status</th>
+                  <th class="p-3">Action</th>
+                </tr>
+              </thead>
+              <tbody id="inquiries-tbody" class="divide-y divide-slate-200"><tr class="hover:bg-slate-50 transition">
+            <td class="p-3 font-mono text-brand-navy font-bold">ZM-2026-1082</td>
+            <td class="p-3 font-semibold">Khalid Al Hashemi</td>
+            <td class="p-3">+971 50 882 1923</td>
+            <td class="p-3">Al Reem -&gt; Yas Island</td>
+            <td class="p-3">2 Bedroom</td>
+            <td class="p-3 font-bold text-emerald-700">1,250 AED</td>
+            <td class="p-3">
+              <select onchange="updateInquiryStatus('ZM-2026-1082', this.value)" class="bg-slate-100 border border-slate-300 rounded px-2 py-1 text-xs">
+                <option value="New" selected="">New</option>
+                <option value="Contacted">Contacted</option>
+                <option value="Confirmed">Confirmed</option>
+              </select>
+            </td>
+            <td class="p-3">
+              <button onclick="deleteInquiry('ZM-2026-1082')" class="text-red-500 hover:text-red-700">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </td>
+          </tr><tr class="hover:bg-slate-50 transition">
+            <td class="p-3 font-mono text-brand-navy font-bold">ZM-2026-1081</td>
+            <td class="p-3 font-semibold">Sarah Jenkins</td>
+            <td class="p-3">+971 52 441 9081</td>
+            <td class="p-3">Corniche -&gt; Dubai</td>
+            <td class="p-3">1 Bedroom</td>
+            <td class="p-3 font-bold text-emerald-700">1,100 AED</td>
+            <td class="p-3">
+              <select onchange="updateInquiryStatus('ZM-2026-1081', this.value)" class="bg-slate-100 border border-slate-300 rounded px-2 py-1 text-xs">
+                <option value="New">New</option>
+                <option value="Contacted" selected="">Contacted</option>
+                <option value="Confirmed">Confirmed</option>
+              </select>
+            </td>
+            <td class="p-3">
+              <button onclick="deleteInquiry('ZM-2026-1081')" class="text-red-500 hover:text-red-700">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </td>
+          </tr></tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-brand-navyDark text-white border-t border-brand-gold/20 pt-12 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <div class="grid md:grid-cols-4 gap-8 text-xs sm:text-sm">
+        <div class="space-y-3">
+          <div class="font-extrabold text-lg text-brand-gold">ZARA MOVERS ABU DHABI</div>
+          <p class="text-slate-400 leading-relaxed">
+            Leading moving and packing company operating in Abu Dhabi, Al Reem Island, Yas Island, Mussafah, and all UAE emirates.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="font-bold text-white uppercase text-xs tracking-wider">Quick Links</div>
+          <ul class="space-y-1.5 text-slate-400">
+            <li><a href="javascript:void(0)" onclick="navigateTo('home')" class="hover:text-brand-gold transition">Home</a></li>
+            <li><a href="javascript:void(0)" onclick="navigateTo('services')" class="hover:text-brand-gold transition">Services Breakdown</a></li>
+            <li><a href="javascript:void(0)" onclick="navigateTo('about')" class="hover:text-brand-gold transition">About Zara Movers</a></li>
+            <li><a href="javascript:void(0)" onclick="navigateTo('contact')" class="hover:text-brand-gold transition">Free Quote Estimator</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-2">
+          <div class="font-bold text-white uppercase text-xs tracking-wider">Abu Dhabi Service Areas</div>
+          <ul class="space-y-1 text-slate-400 text-xs">
+            <li>Al Reem Island &amp; Al Maryah</li>
+            <li>Yas Island &amp; Al Raha Beach</li>
+            <li>Khalifa City &amp; MBZ City</li>
+            <li>Corniche &amp; Al Khalidiya</li>
+            <li>Mussafah Industrial &amp; Commercial</li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <div class="font-bold text-white uppercase text-xs tracking-wider">Dispatch Contact</div>
+          <div class="text-slate-400 space-y-1 text-xs">
+            <p><i class="fa-solid fa-location-dot text-brand-gold mr-1"></i> Mussafah M-14, Abu Dhabi, UAE</p>
+            <p><i class="fa-solid fa-phone text-brand-gold mr-1"></i> +971 50 123 4567</p>
+            <p><i class="fa-solid fa-envelope text-brand-gold mr-1"></i> info@zaramoversabudhabi.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-6 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <p>© 2026 ZARA MOVERS Abu Dhabi. All Rights Reserved.</p>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-brand-gold">Privacy Policy</a>
+          <a href="#" class="hover:text-brand-gold">Terms of Service</a>
+          <a href="#" class="hover:text-brand-gold">UAE Moving Guide</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SERVICE DETAIL MODAL -->
+  <div id="service-modal" class="fixed inset-0 bg-slate-900/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 space-y-4 relative shadow-2xl">
+      <button onclick="closeServiceModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700">
+        <i class="fa-solid fa-xmark text-xl"></i>
+      </button>
+      <h3 id="modal-service-title" class="text-xl font-bold text-brand-navy">Service Details</h3>
+      <div id="modal-service-body" class="text-xs text-slate-600 space-y-2 leading-relaxed">
+        <!-- Injected via JS -->
+      </div>
+      <button onclick="closeServiceModal(); navigateTo('contact')" class="w-full py-2.5 bg-brand-gold text-brand-navy font-bold rounded-lg text-sm hover:bg-brand-accent transition">
+        Proceed to Book This Service
+      </button>
+    </div>
+  </div>
+
+  <!-- JavaScript Logic & App State Engine -->
+  <script>
+    /* ================= APP INITIALIZATION & STATE ================= */
+    const DEFAULT_CMS = {
+      brand_name: "ZARA MOVERS",
+      brand_tagline: "Professional Packers & Movers UAE",
+      hero_badge: "#1 Rated Villa & Apartment Movers in Abu Dhabi",
+      hero_title_1: "Hassle-Free Relocation Across",
+      hero_title_2: "Abu Dhabi & UAE",
+      hero_desc: "From Al Reem Island to Yas, Mussafah, and Dubai. We provide stress-free packing, furniture disassembly, secure transport, and complete setup. Fully insured and trusted by 12,000+ UAE residents.",
+      hero_feat_1: "0% Breakage Guarantee",
+      hero_feat_2: "Same Day Moving",
+      hero_feat_3: "Free Box Delivery",
+      s1_title: "Residential Villa & Apt Moving",
+      s1_desc: "Complete home relocation including bubble wrapping, furniture dismantling/reassembly, and neat room placement.",
+      s2_title: "Office & Corporate Relocation",
+      s2_desc: "Minimal downtime corporate moving with IT equipment protection, filing system packing, and off-hours scheduling.",
+      s3_title: "Packing & Storage Services",
+      s3_desc: "High-grade stretch wrap, heavy-duty cartons, wardrobe boxes, and climate-controlled warehouse storage in Abu Dhabi.",
+      about_heading: "Dedicated to Seamless Moving Experiences",
+      about_text: "Established with a commitment to excellence, Zara Movers Abu Dhabi has become the capital's premier choice for residential and corporate relocation. We combine trained professionals, modern enclosed GPS trucks, and high-quality packing supplies to protect your valuable memories and assets."
+    };
+
+    let cmsData = { ...DEFAULT_CMS };
+    let liveEditActive = false;
+    let audioFXEnabled = false;
+    let particlesEnabled = true;
+    let tiltEnabled = true;
+    let currentLang = 'en';
+    let isAdminLoggedIn = false;
+
+    // Sample initial inquiries
+    let inquiries = JSON.parse(localStorage.getItem('zm_inquiries')) || [
+      { id: 'ZM-2026-1082', name: 'Khalid Al Hashemi', phone: '+971 50 882 1923', route: 'Al Reem -> Yas Island', property: '2 Bedroom', price: '1,250 AED', status: 'New', date: '2026-10-15' },
+      { id: 'ZM-2026-1081', name: 'Sarah Jenkins', phone: '+971 52 441 9081', route: 'Corniche -> Dubai', property: '1 Bedroom', price: '1,100 AED', status: 'Contacted', date: '2026-10-14' }
+    ];
+
+    const testimonials = [
+      { text: '"Zara Movers made our move from Al Reem Island to Yas Acres completely effortless. They arrived on time, wrapped everything meticulously, and didn\'t leave a single scratch. Highly recommended in Abu Dhabi!"', name: 'Tariq Mansoor', sub: 'Yas Island Resident' },
+      { text: '"Top class service! The carpenters disassembled our heavy Italian wardobes and re-assembled them perfectly at our new villa in Khalifa City."', name: 'Fatima Al Hammadi', sub: 'Khalifa City Villa Owner' },
+      { text: '"Fast, polite, and very reasonable prices for moving between Abu Dhabi and Dubai. Finished our 2BR apartment move in under 5 hours."', name: 'David Miller', sub: 'Al Maryah Island' }
+    ];
+    let currentTestimonialIdx = 0;
+
+    /* ================= WINDOW LOAD & SETUP ================= */
+    window.onload = function() {
+      loadStoredCMS();
+      initParticles();
+      initTiltEffect();
+      calculateQuickEstimate();
+      recalculateFullQuote();
+      renderAdminInquiries();
+
+      // Set min date for move date to today
+      const dateInput = document.getElementById('move-date');
+      if (dateInput) {
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.min = today;
+        dateInput.value = today;
+      }
+    };
+
+    /* ================= CMS & LIVE EDIT ENGINE ================= */
+    function loadStoredCMS() {
+      const saved = localStorage.getItem('zm_cms_data');
+      if (saved) {
+        try {
+          cmsData = { ...DEFAULT_CMS, ...JSON.parse(saved) };
+        } catch(e) { cmsData = { ...DEFAULT_CMS }; }
+      }
+      applyCMSToDOM();
+    }
+
+    function applyCMSToDOM() {
+      document.querySelectorAll('.editable-cms').forEach(el => {
+        const key = el.getAttribute('data-cms-key');
+        if (key && cmsData[key]) {
+          el.innerText = cmsData[key];
+        }
+      });
+    }
+
+    function toggleLiveEditMode() {
+      liveEditActive = !liveEditActive;
+      const body = document.body;
+      const btnLabel = document.getElementById('edit-mode-label');
+
+      if (liveEditActive) {
+        body.classList.add('live-edit-mode');
+        btnLabel.innerText = 'Disable Live Text Edit (Active)';
+        showToast('Live Edit Mode ON: Click any highlighted text to edit directly!', 'info');
+
+        document.querySelectorAll('.editable-cms').forEach(el => {
+          el.contentEditable = "true";
+          el.addEventListener('blur', saveCMSBlurHandler);
+        });
+      } else {
+        body.classList.remove('live-edit-mode');
+        btnLabel.innerText = 'Enable Live Text Edit';
+        showToast('Live Edit Mode OFF. All changes saved locally.', 'success');
+
+        document.querySelectorAll('.editable-cms').forEach(el => {
+          el.contentEditable = "false";
+          el.removeEventListener('blur', saveCMSBlurHandler);
+        });
+      }
+    }
+
+    function saveCMSBlurHandler(e) {
+      const key = e.target.getAttribute('data-cms-key');
+      if (key) {
+        cmsData[key] = e.target.innerText.trim();
+        localStorage.setItem('zm_cms_data', JSON.stringify(cmsData));
+      }
+    }
+
+    function exportSiteJSON() {
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(cmsData, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "zara_movers_cms_config.json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+      showToast('Config exported successfully as JSON file.', 'success');
+    }
+
+    function resetCMSData() {
+      if (confirm("Reset all edited text on the website to original default content?")) {
+        cmsData = { ...DEFAULT_CMS };
+        localStorage.removeItem('zm_cms_data');
+        applyCMSToDOM();
+        showToast('Website content restored to initial default.', 'info');
+      }
+    }
+
+    /* ================= SINGLE PAGE ROUTER ================= */
+    function navigateTo(pageId) {
+      playClickSound();
+      document.querySelectorAll('.page-view').forEach(p => p.classList.add('hidden'));
+      const targetPage = document.getElementById(`page-${pageId}`);
+      if (targetPage) {
+        targetPage.classList.remove('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      // Update Nav active states
+      document.querySelectorAll('.nav-link').forEach(btn => btn.classList.remove('text-brand-gold', 'font-bold'));
+      const activeNavBtn = document.getElementById(`nav-${pageId}`);
+      if (activeNavBtn) activeNavBtn.classList.add('text-brand-gold', 'font-bold');
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+
+    /* ================= PRICING & ESTIMATOR CALCULATORS ================= */
+    function calculateQuickEstimate() {
+      const moveType = document.getElementById('quick-move-type').value;
+      const toLoc = document.getElementById('quick-to').value;
+
+      let baseMin = 500, baseMax = 700;
+      if (moveType === '1bed') { baseMin = 750; baseMax = 1100; }
+      else if (moveType === '2bed') { baseMin = 1200; baseMax = 1600; }
+      else if (moveType === '3bed') { baseMin = 1800; baseMax = 2400; }
+      else if (moveType === 'villa') { baseMin = 2500; baseMax = 3800; }
+      else if (moveType === 'office') { baseMin = 1500; baseMax = 3500; }
+
+      if (toLoc === 'dubai') { baseMin += 350; baseMax += 450; }
+      else if (toLoc === 'sharjah') { baseMin += 450; baseMax += 550; }
+      else if (toLoc === 'rak') { baseMin += 600; baseMax += 750; }
+
+      document.getElementById('quick-price-display').innerText = `${baseMin} - ${baseMax} AED`;
+    }
+
+    function applyQuickEstimateToForm() {
+      navigateTo('contact');
+    }
+
+    function recalculateFullQuote() {
+      const propTypeEl = document.querySelector('input[name="property_type"]:checked');
+      const propType = propTypeEl ? propTypeEl.value : '1bed';
+
+      let price = 800;
+      if (propType === 'studio') price = 550;
+      if (propType === '1bed') price = 850;
+      if (propType === '2bed') price = 1350;
+      if (propType === 'villa') price = 2400;
+
+      // Add-ons
+      if (document.getElementById('addon-fullpack')?.checked) price += 300;
+      if (document.getElementById('addon-curtains')?.checked) price += 150;
+      if (document.getElementById('addon-storage')?.checked) price += 400;
+
+      // Distance
+      const dropArea = document.getElementById('drop-area')?.value;
+      if (dropArea === 'Dubai') price += 350;
+      if (dropArea === 'Sharjah') price += 450;
+      if (dropArea === 'Ras Al Khaimah') price += 600;
+
+      document.getElementById('final-calculated-price').innerText = `${price} AED`;
+    }
+
+    function goToStep(stepNum) {
+      playClickSound();
+      document.getElementById('quote-step-1').classList.add('hidden');
+      document.getElementById('quote-step-2').classList.add('hidden');
+      document.getElementById('quote-step-3').classList.add('hidden');
+
+      document.getElementById(`quote-step-${stepNum}`).classList.remove('hidden');
+
+      // Update indicator styling
+      for (let i = 1; i <= 3; i++) {
+        const ind = document.getElementById(`step-${i}-indicator`);
+        if (i === stepNum) {
+          ind.className = "flex items-center gap-2 text-brand-navy border-b-2 border-brand-gold pb-1 font-bold";
+        } else {
+          ind.className = "flex items-center gap-2 text-slate-400 font-normal";
+        }
+      }
+    }
+
+    function handleQuoteSubmit(e) {
+      e.preventDefault();
+      playClickSound();
+
+      const name = document.getElementById('cust-name').value;
+      const phone = document.getElementById('cust-phone').value;
+      const pickup = document.getElementById('pickup-area').value;
+      const drop = document.getElementById('drop-area').value;
+      const estPrice = document.getElementById('final-calculated-price').innerText;
+      const date = document.getElementById('move-date').value;
+
+      const refCode = `ZM-2026-${Math.floor(1000 + Math.random() * 9000)}`;
+
+      const newInquiry = {
+        id: refCode,
+        name: name,
+        phone: phone,
+        route: `${pickup} -> ${drop}`,
+        property: document.querySelector('input[name="property_type"]:checked')?.value || 'Standard',
+        price: estPrice,
+        status: 'New',
+        date: date
+      };
+
+      inquiries.unshift(newInquiry);
+      localStorage.setItem('zm_inquiries', JSON.stringify(inquiries));
+
+      // Trigger Confetti
+      try {
+        confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
+      } catch(e) {}
+
+      showToast(`Success! Your Move Reference Code is ${refCode}. Dispatch will call you shortly.`, 'success');
+
+      // Reset form and return step 1
+      document.getElementById('quote-form').reset();
+      goToStep(1);
+      renderAdminInquiries();
+    }
+
+    /* ================= SERVICES FILTER & MODAL ================= */
+    function filterServices(category) {
+      playClickSound();
+      document.querySelectorAll('.service-tab-btn').forEach(b => b.classList.remove('bg-brand-navy', 'text-white'));
+      event.target.classList.add('bg-brand-navy', 'text-white');
+
+      document.querySelectorAll('.service-card').forEach(card => {
+        if (category === 'all' || card.classList.contains(category)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    function showServiceDetail(type) {
+      playClickSound();
+      const modal = document.getElementById('service-modal');
+      const title = document.getElementById('modal-service-title');
+      const body = document.getElementById('modal-service-body');
+
+      if (type === 'residential') {
+        title.innerText = 'Residential Villa & Apartment Relocation';
+        body.innerHTML = `
+          <p>Our complete residential package ensures every household item is handled with extreme care:</p>
+          <ul class="list-disc pl-4 space-y-1">
+            <li>Dismantling of heavy beds, wardrobes, and dining tables by experienced carpenters.</li>
+            <li>Multi-layer bubble wrapping for glass tops, OLED TVs, and mirrors.</li>
+            <li>Enclosed carpet-lined truck transport.</li>
+            <li>Placement and re-assembly in your new Abu Dhabi home.</li>
+          </ul>
+        `;
+      } else if (type === 'office') {
+        title.innerText = 'Corporate & Office Relocation Services';
+        body.innerHTML = `
+          <p>Designed to minimize downtime for businesses in Abu Dhabi and UAE:</p>
+          <ul class="list-disc pl-4 space-y-1">
+            <li>Nighttime and weekend execution options.</li>
+            <li>Tagging system for IT hardware, monitors, and workstation desks.</li>
+            <li>Document & archive file box organizing.</li>
+          </ul>
+        `;
+      } else {
+        title.innerText = 'Packing & Storage Solutions';
+        body.innerHTML = `
+          <p>Premium packing materials and air-conditioned short/long term storage:</p>
+          <ul class="list-disc pl-4 space-y-1">
+            <li>Cardboard boxes of various sizes delivered prior to moving day.</li>
+            <li>Climate controlled, 24/7 CCTV security storage facility in Mussafah.</li>
+          </ul>
+        `;
+      }
+
+      modal.classList.remove('hidden');
+    }
+
+    function closeServiceModal() {
+      document.getElementById('service-modal').classList.add('hidden');
+    }
+
+    /* ================= TESTIMONIAL SLIDER ================= */
+    function prevTestimonial() {
+      currentTestimonialIdx = (currentTestimonialIdx - 1 + testimonials.length) % testimonials.length;
+      updateTestimonialUI();
+    }
+    function nextTestimonial() {
+      currentTestimonialIdx = (currentTestimonialIdx + 1) % testimonials.length;
+      updateTestimonialUI();
+    }
+    function updateTestimonialUI() {
+      const item = testimonials[currentTestimonialIdx];
+      document.getElementById('testimonial-content').innerHTML = `
+        <p class="text-slate-200 text-sm italic">${item.text}</p>
+        <div>
+          <div class="font-bold text-brand-gold">${item.name}</div>
+          <div class="text-xs text-slate-400">${item.sub}</div>
+        </div>
+      `;
+    }
+
+    /* ================= ADMIN PANEL ENGINE ================= */
+    function handleAdminLogin(e) {
+      e.preventDefault();
+      const u = document.getElementById('admin-user').value;
+      const p = document.getElementById('admin-pass').value;
+
+      if (u === 'admin' && p === 'zaramovers123') {
+        isAdminLoggedIn = true;
+        document.getElementById('admin-login-box').classList.add('hidden');
+        document.getElementById('admin-dashboard-box').classList.remove('hidden');
+        showToast('Logged into Admin Dashboard.', 'success');
+        renderAdminInquiries();
+      } else {
+        showToast('Invalid credentials! Try admin / zaramovers123', 'error');
+      }
+    }
+
+    function adminLogout() {
+      isAdminLoggedIn = false;
+      document.getElementById('admin-login-box').classList.remove('hidden');
+      document.getElementById('admin-dashboard-box').classList.add('hidden');
+    }
+
+    function renderAdminInquiries() {
+      const tbody = document.getElementById('inquiries-tbody');
+      if (!tbody) return;
+
+      const searchTerm = (document.getElementById('admin-search')?.value || '').toLowerCase();
+      const filterStatus = document.getElementById('admin-filter-status')?.value || 'all';
+
+      let totalRevenue = 0;
+      let newCount = 0;
+      let confirmedCount = 0;
+
+      tbody.innerHTML = '';
+
+      inquiries.forEach((item, index) => {
+        // Analytics calculations
+        const priceNum = parseInt(item.price.replace(/[^0-9]/g, '')) || 0;
+        totalRevenue += priceNum;
+        if (item.status === 'New') newCount++;
+        if (item.status === 'Confirmed') confirmedCount++;
+
+        // Filter checks
+        const matchesSearch = item.name.toLowerCase().includes(searchTerm) ||
+                              item.phone.toLowerCase().includes(searchTerm) ||
+                              item.id.toLowerCase().includes(searchTerm);
+        const matchesStatus = filterStatus === 'all' || item.status === filterStatus;
+
+        if (matchesSearch && matchesStatus) {
+          const tr = document.createElement('tr');
+          tr.className = "hover:bg-slate-50 transition";
+          tr.innerHTML = `
+            <td class="p-3 font-mono text-brand-navy font-bold">${item.id}</td>
+            <td class="p-3 font-semibold">${item.name}</td>
+            <td class="p-3">${item.phone}</td>
+            <td class="p-3">${item.route}</td>
+            <td class="p-3">${item.property}</td>
+            <td class="p-3 font-bold text-emerald-700">${item.price}</td>
+            <td class="p-3">
+              <select onchange="updateInquiryStatus('${item.id}', this.value)" class="bg-slate-100 border border-slate-300 rounded px-2 py-1 text-xs">
+                <option value="New" ${item.status === 'New' ? 'selected' : ''}>New</option>
+                <option value="Contacted" ${item.status === 'Contacted' ? 'selected' : ''}>Contacted</option>
+                <option value="Confirmed" ${item.status === 'Confirmed' ? 'selected' : ''}>Confirmed</option>
+              </select>
+            </td>
+            <td class="p-3">
+              <button onclick="deleteInquiry('${item.id}')" class="text-red-500 hover:text-red-700">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </td>
+          `;
+          tbody.appendChild(tr);
+        }
+      });
+
+      // Update counters
+      document.getElementById('stat-total-quotes').innerText = inquiries.length;
+      document.getElementById('stat-new-quotes').innerText = newCount;
+      document.getElementById('stat-confirmed-quotes').innerText = confirmedCount;
+      document.getElementById('stat-revenue').innerText = `${totalRevenue.toLocaleString()} AED`;
+    }
+
+    function updateInquiryStatus(id, newStatus) {
+      const idx = inquiries.findIndex(i => i.id === id);
+      if (idx !== -1) {
+        inquiries[idx].status = newStatus;
+        localStorage.setItem('zm_inquiries', JSON.stringify(inquiries));
+        showToast(`Updated status of ${id} to ${newStatus}`, 'info');
+        renderAdminInquiries();
+      }
+    }
+
+    function deleteInquiry(id) {
+      if (confirm(`Delete inquiry record ${id}?`)) {
+        inquiries = inquiries.filter(i => i.id !== id);
+        localStorage.setItem('zm_inquiries', JSON.stringify(inquiries));
+        showToast('Record deleted.', 'info');
+        renderAdminInquiries();
+      }
+    }
+
+    function exportInquiriesCSV() {
+      let csv = "ID,Name,Phone,Route,Property,Price,Status,Date\n";
+      inquiries.forEach(i => {
+        csv += `"${i.id}","${i.name}","${i.phone}","${i.route}","${i.property}","${i.price}","${i.status}","${i.date}"\n`;
+      });
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.setAttribute('href', url);
+      a.setAttribute('download', `zara_movers_inquiries_${new Date().toISOString().split('T')[0]}.csv`);
+      a.click();
+      showToast('CSV export downloaded.', 'success');
+    }
+
+    /* ================= VISUAL FX & TILT ENGINES ================= */
+    function initTiltEffect() {
+      document.addEventListener('mousemove', (e) => {
+        if (!tiltEnabled) return;
+        const cards = document.querySelectorAll('.tilt-card');
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+
+        cards.forEach(card => {
+          const rect = card.getBoundingClientRect();
+          const cardX = rect.left + rect.width / 2;
+          const cardY = rect.top + rect.height / 2;
+
+          const angleX = (mouseY - cardY) / 35;
+          const angleY = (cardX - mouseX) / 35;
+
+          card.style.transform = `perspective(1000px) rotateX(${angleX}deg) rotateY(${angleY}deg)`;
+        });
+      });
+    }
+
+    function toggleTiltSetting(enabled) {
+      tiltEnabled = enabled;
+      if (!enabled) {
+        document.querySelectorAll('.tilt-card').forEach(c => c.style.transform = 'none');
+      }
+    }
+
+    function toggleParticlesSetting(enabled) {
+      particlesEnabled = enabled;
+      const canvas = document.getElementById('particle-canvas');
+      canvas.style.display = enabled ? 'block' : 'none';
+    }
+
+    /* Interactive Canvas Particle Background */
+    function initParticles() {
+      const canvas = document.getElementById('particle-canvas');
+      const ctx = canvas.getContext('2d');
+      let particles = [];
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      resize();
+      window.addEventListener('resize', resize);
+
+      for (let i = 0; i < 45; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          vx: (Math.random() - 0.5) * 0.4,
+          vy: (Math.random() - 0.5) * 0.4,
+          radius: Math.random() * 2 + 1,
+          color: Math.random() > 0.5 ? 'rgba(255, 194, 71, 0.35)' : 'rgba(16, 43, 73, 0.25)'
+        });
+      }
+
+      function animate() {
+        if (particlesEnabled) {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          particles.forEach(p => {
+            p.x += p.vx;
+            p.y += p.vy;
+
+            if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+            if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+            ctx.fillStyle = p.color;
+            ctx.fill();
+          });
+        }
+        requestAnimationFrame(animate);
+      }
+      animate();
+    }
+
+    /* ================= SOUND FX & TOAST ALERTS ================= */
+    function toggleSoundFX() {
+      audioFXEnabled = !audioFXEnabled;
+      const icon = document.getElementById('sound-icon');
+      if (audioFXEnabled) {
+        icon.className = "fa-solid fa-volume-high text-brand-gold";
+        showToast('Audio Feedback Enabled', 'info');
+      } else {
+        icon.className = "fa-solid fa-volume-xmark";
+        showToast('Audio Feedback Muted', 'info');
+      }
+    }
+
+    function playClickSound() {
+      if (!audioFXEnabled) return;
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(600, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(200, ctx.currentTime + 0.05);
+        gain.gain.setValueAtTime(0.1, ctx.currentTime);
+        gain.gain.linearRampToValueAtTime(0.01, ctx.currentTime + 0.05);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.05);
+      } catch(e) {}
+    }
+
+    function showToast(message, type = 'info') {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+
+      let bg = 'bg-slate-900 border-brand-gold text-white';
+      if (type === 'success') bg = 'bg-emerald-900 border-emerald-400 text-emerald-100';
+      if (type === 'error') bg = 'bg-red-900 border-red-400 text-red-100';
+
+      toast.className = `${bg} border px-4 py-3 rounded-xl shadow-2xl text-xs font-medium flex items-center gap-2 transform translate-y-2 opacity-0 transition duration-300 pointer-events-auto`;
+      toast.innerHTML = `<i class="fa-solid fa-circle-info text-brand-gold"></i> <span>${message}</span>`;
+
+      container.appendChild(toast);
+
+      setTimeout(() => {
+        toast.classList.remove('translate-y-2', 'opacity-0');
+      }, 50);
+
+      setTimeout(() => {
+        toast.classList.add('opacity-0');
+        setTimeout(() => toast.remove(), 300);
+      }, 4000);
+    }
+
+    /* ================= LANGUAGE TOGGLE (ARABIC RTL) ================= */
+    function toggleLanguage() {
+      playClickSound();
+      const html = document.documentElement;
+      const label = document.getElementById('lang-btn-label');
+
+      if (currentLang === 'en') {
+        currentLang = 'ar';
+        html.setAttribute('dir', 'rtl');
+        html.setAttribute('lang', 'ar');
+        label.innerText = 'English (LTR)';
+        showToast('تم تحويل الواجهة إلى اللغة العربية', 'info');
+      } else {
+        currentLang = 'en';
+        html.setAttribute('dir', 'ltr');
+        html.setAttribute('lang', 'en');
+        label.innerText = 'العربية (RTL)';
+        showToast('Switched to English Layout', 'info');
+      }
+    }
+  </script>
+
+</body></html>
